@@ -1,0 +1,23 @@
+.list {
+  list-style: none;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.image {
+  background-size: cover;
+  opacity: 1;
+}
+
+.image-blur {
+  background-size: cover;
+  opacity: 0.5;
+}
+
+.btn {
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+}
