@@ -6,9 +6,21 @@
   flex-wrap: wrap;
 }
 
-.image {
-  background-size: cover;
-  opacity: 1;
+@media (width: 576px), (max-width: 576px) {
+  .image {
+    background-size: cover;
+    opacity: 1;
+    height: 80px;
+    margin-right: 10px;
+    width: 80px;
+  }
+}
+
+@media (width: 768px), (min-width: 768px) {
+  .image {
+    background-size: cover;
+    opacity: 1;
+  }
 }
 
 .image-blur {
